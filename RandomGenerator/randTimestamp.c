@@ -23,6 +23,7 @@ int main(){
     tmptr ->tm_min -=rand()%59 ;//[0,59]
     tmptr ->tm_hour -=rand()%23 ;//[0,23]
     tmptr ->tm_mday -=rand()%31; //[1,31]
+    
     tmptr ->tm_mon -=rand()%11; //[0,11]
     tmptr ->tm_year -= rand()%106; //years since 1900
     tmptr ->tm_wday -=rand()%6 ;//[0,6] (Sunday = 0)
